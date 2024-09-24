@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+}
+header{
+    border: solid 2px;
+    border-radius:  8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    color: #48CFCB;
+}
+
+.header-title {
+  font-size: 15px;
+  padding: 10px 20px;
+
+}
+nav a{
+margin: 0px 30px;
+text-decoration: none;
+font-size: 20px ;
+font-weight: bolder;
+color: #48CFCB;
+}
+
+.container{
+    border-radius: 8px;
+    margin: 0px 5%;
+    background-color: #48CFCB;
+    height: 300px;
+    width: 90%;
+  
+}
+.preentation-title{
+    display: flex;
+    justify-content: center;
+  color: aliceblue;
+  font-size: 20px;
+}
+.preentation-iteams{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+.preentation-iteams img{
+    width: 150px;
+    height: 100px;
+    margin: 20px 30px;
+    border-radius: 8px;
+    transition: 0.7s;
+  
+}
+.preentation-iteams img:hover{
+    transform: scale(1.1 , 1.1);
+}
+.Projects-title{
+color: #48CFCB;
+font-size: 30px;
+display: flex;
+justify-content: center;
+
+
+}
+.card{
+width: 30%;
+margin: 0px 50px;
+border: 1px solid black;
+border-radius: 8px;
+transition: 0.9s;
+background-color: aliceblue;
+
+}
+
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+.card-img img{
+    width: 100%;
+}
+.Projects {
+    display: flex;
+    flex-direction: row;
+    background-color: #229799 ;
+}
+.descrip-card {
+    margin: 5px;
+}
+footer{
+ background-color: #424242;  
+ color: white;
+ height: 130px;
+ display: flex ;
+ justify-content: center;
+}
